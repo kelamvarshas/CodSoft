@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JOBS</title>
+    <style>
+     #titleName img{
+        width: 100%;
+        height:600px;
+      }
+      
+      #titleName::after {
+        content: "WELCOME TO ALL THE FRESHERS ";
+        position: absolute;
+        top: 390px;
+        right: 25%;
+        transform: translateX(5%);
+        font-weight: bold;
+        font-size: 50px;
+      }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:Red ;
+        }
+
+        header {
+            background-color:MediumVioletRed ;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+         .Various-jobs: {
+            background-color:violet;
+             display: flex;
+            
+        }
+
+        .job-listing {
+            display: flex;
+            padding: 10px;
+            justify-content:space-between;
+            align-items: center;
+            
+        }
+
+        .job-listing:hover {
+            background-color:yellow;
+        }
+        .dashboard {
+            width: 35%;
+            background-color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 20px;
+        }
+        .card {
+            background-color: pink;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .quick-links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .account-management,
+        .job-posting {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .job-posting form {
+            display: flex;
+            flex-direction: column;
+        }
+         .profile-management,
+        .job-applications {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .profile-management form,
+        .job-applications ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .job-applications li {
+            margin-bottom: 10px;
+        }
+        .application-form {
+            background-color:Magenta  ;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        .application-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .application-form input,
+        .application-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .application-form button {
+            background-color: blue;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .success {
+      background-color: #dff0d8;
+      border: 1px solid #d0e9c6;
+      color: #3c763d;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+    }
+    .update {
+      background-color: #d9edf7;
+      border: 1px solid #bce8f1;
+      color: #31708f;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+    }
+     .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      background-color:MediumVioletRed ;
+      color: #fff;
+      padding: 10px;
+    }
+    .content {
+      padding: 20px;
+    }
+        footer {
+            background-color:Snow ;
+            color: Lime ;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+       
+    </style>
+</head>
+<body>
+     <header>
+        <h1>BULID YOUR DREAMS</h1>
+    </header>
+    <html>
+    <div id="titleName">
+        <img  id="background-image" src="https://snacknation.com/wp-content/uploads/2021/04/quote-e1618185740491.png">
+      </div>
+
+    <section>
+        <h1>User Login</h1>
+        <div class="login-form">
+            <form action="process_login.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+    <nav>
+         <section class="search"> 
+        <h2> To Find and fullfill Your Dream Job</h2> 
+        <form action="#" method="get"> 
+            <input type="text" name="keywords" 
+                placeholder="Keywords"> 
+            <input type="text" name="location" 
+                placeholder="Location"> 
+            <input type="text" name="company" 
+                placeholder="Company"> 
+            <button type="submit"> 
+                Search 
+            </button> 
+        </form> 
+    </section> 
+    </nav>
+    <section>
+        <header>Jobs Lists</header>
+        <div id="job1" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Web Developer</h2>
+                </div>
+        </div>
+
+        <div id="job2" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">AI Engineer</h2>
+                </div>
+        </div>
+        <div id="job3" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Mobile App Developer</h2>
+            </div>
+        </div>
+        <div id="job4" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Systems Architect</h2>
+            </div>
+        </div>
+        <div id="job5" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Software Developer</h2>
+            </div>
+        </div>
+        <div id="job6" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">UX Designer</h2>
+            </div>
+        </div>
+        <div id="job7" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">IT Project Manager</h2>
+            </div>
+        </div>
+        <div id="job8" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Information Security Analyst</h2>
+            </div>
+        </div>
+        <div id="job9" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Computer Hardware Engineer</h2>
+            </div>
+        </div>
+        <div id="job10" class="Various-jobs">
+            <div>
+                <h2 style="text-align: center;">Video Game Developer</h2>
+            </div>
+        </div>
+        <header>
+        <h1> Employee Dashboard</h1>
+    </header>
+        <div class="dashboard">
+            <div class="account-management card">
+                <h2 style="text-align: center;">Account Management</h2>
+                <div class="view-mode">
+                    <p>Company Name: Bulid Your Dreams</p>
+                    <p>Contact Person: abc</p>
+                    <p>Email: abc@example.com</p>
+                    <button onclick="showEditForm()">Edit Account</button>
+                </div>
+                <form class="edit-form">
+                    <label for="companyName">Company Name:</label>
+                    <input type="text" id="companyName" name="companyName" value=" " required><br><br>
+
+                    <label for="contactPerson">Contact Person:</label>
+                    <input type="text" id="contactPerson" name="contactPerson" value=" " required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value=" " required><br><br>
+
+                    <button type="submit">Save Changes</button>
+                </form>
+            </div>
+
+            <div class="job-posting card">
+                <h2 style="text-align: center;">Job Posting</h2>
+                <form>
+                    <label for="jobTitle">Job Title:</label>
+                    <input type="text" id="jobTitle" name="jobTitle" required><br>
+
+                    <label for="jobDescription">Job Description:</label>
+                    <textarea id="jobDescription" name="jobDescription" rows="4" required></textarea><br>
+
+                    <button type="submit">Post Job</button>
+                </form>
+            </div>
+        </div>
+         <header>
+        <h1> Candidate Dashboard</h1>
+    </header>
+     <div class="dashboard">
+            <div class="profile-management card">
+                <h2 style="text-align: center;">Profile Management</h2>
+                <form>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" value=" " required><br><br>
+
+                    <label for="resume">Resume:</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+
+                    <button type="submit">Update Profile</button>
+                </form>
+                </div>
+            </div>
+            <header>
+        <h1>Job Application Process</h1>
+    </header>
+
+             <div id="web-developer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Web Developer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('web-developer')"></a>
+            <div id="form-web-developer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+
+              <div id="AI Engineer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">AI Engineer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('AI Engineer')"></a>
+            <div id="form-AI Engineer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+        <div id="Mobile App Developer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Mobile App Developer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('Mobile App Developer')"></a>
+            <div id="form-Mobile App Developer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+        <div id="Systems Architect" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Systems Architect</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('Systems Architect')"></a>
+            <div id="form-Systems Architect" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+                 <div id="Software Developer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Software Developer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('Software Developer')"></a>
+            <div id="form-Software Developer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+                 <div id="UX Designer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">UX Designer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('UX Designer')"></a>
+            <div id="form-UX Designer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+                 <div id="IT Project Manager" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">IT Project Manager</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('IT Project Manager')"></a>
+            <div id="form-IT Project Manager" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+                 <div id="Information Security Analyst" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Information Security Analyst</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('Information Security Analyst')"></a>
+            <div id="form-Information Security Analyst" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+                 <div id="Computer Hardware Engineer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Computer Hardware Engineer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('Computer Hardware Engineer')"></a>
+            <div id="form-Computer Hardware Engineer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+                 <div id="Video Game Developer" class="job-listing">
+            <div>
+                <h2 style="text-align: center;">Video Game Developer</h2>
+            </div>
+            <a href="#" onclick="showApplicationForm('Video Game Developer')"></a>
+            <div id="form-Video Game Developer" class="application-form">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="resume">Resume (PDF or Word):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+                    <button type="submit">Submit Application</button>
+                </form>
+                </div>
+                </div>
+    </section>
+    <section>
+        <header>Job Details</header>
+    <ul>
+        <li><a href="web_developer_skills.txt">Web Developer Skills</a></li>
+        <li><a href="ai_engineer_skills.txt">AI Engineer Skills</a></li>
+        <li><a href="mobile_app_developer_skills.txt">Mobile App Developer Skills</a></li>
+        <li><a href="systems_architect_skills.txt">Systems Architect Skills</a></li>
+        <li><a href="software_developer_skills.txt">Software Developer Skills</a></li>
+        <li><a href="ux_designer_skills.txt">UX Designer Skills</a></li>
+        <li><a href="it_project_manager_skills.txt">IT Project Manager Skills</a></li>
+        <li><a href="information_security_analyst_skills.txt">Information Security Analyst Skills</a></li>
+        <li><a href="computer_hardware_engineer_skills.txt">Computer Hardware Engineer Skills</a></li>
+        <li><a href="video_game_developer_skills.txt">Video Game Developer Skills</a></li>
+    </ul>
+    </section>
+    <section>
+     <header>Email Notification</header>
+    <div class="success">
+      <p>Your application was successful!</p>
+    </div>
+    <div class="update">
+      <p>You have received an update on your application.</p>
+    </div>
+    </section>
+    <section>
+         <div class="container">
+    <div class="header">
+      <h1>Mobile Responsive Website</h1>
+    </div>
+    <div class="content">
+      <p>This is a simple example of a mobile responsive website.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultricies nulla. Nullam quis ipsum non libero efficitur convallis. Nullam nec elit nec nulla fringilla pulvinar.</p>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Mobile Responsive Website</p>
+    </div>
+  </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Job Portal</p>
+    </footer>
+</body>
+</html>
