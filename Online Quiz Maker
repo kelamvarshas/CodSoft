@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Knowledge Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            background-image:url("https://img.freepik.com/free-vector/abstract-background-questionnaire-with-speech-bubbles_23-2147595469.jpg?size=338&ext=jpg");
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options1 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options2 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options3 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options4 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options5 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options6 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options7 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options8 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options9 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options10 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options11 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options12 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options13 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .options14 label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>General Knowledge Quiz</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1.What is the capital of Australia?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a">a) Sydney</label>
+                    <label><input type="radio" name="q1" value="b">b) Melbourne</label>
+                    <label><input type="radio" name="q1" value="c">c) Canberra</label>
+                    <label><input type="radio" name="q1" value="d">d) Perth</label>
+                </div>
+            </div>
+            <div class="question">
+                <p>2.Who painted the Mona Lisa?</p>
+                <div class="options1">
+                    <label><input type="radio" name="q2" value="a">a) Vincent van Gogh</label>
+                    <label><input type="radio" name="q2" value="b">b) Pablo Picasso</label>
+                    <label><input type="radio" name="q2" value="c">c) Leonardo da Vinci</label>
+                    <label><input type="radio" name="q2" value="d">d) Michelangelo</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>3.What is the largest ocean in the world?</p>
+                <div class="options2">
+                    <label><input type="radio" name="q3" value="a">a) Atlantic Ocean</label>
+                    <label><input type="radio" name="q3" value="b">b) Indian Ocean</label>
+                    <label><input type="radio" name="q3" value="c">c) Arctic Ocean</label>
+                    <label><input type="radio" name="q3" value="d">d) Pacific Ocean</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>4.Who wrote the play "Romeo and Juliet"?</p>
+                <div class="options3">
+                    <label><input type="radio" name="q4" value="a">a) William Shakespeare</label>
+                    <label><input type="radio" name="q4" value="b">b) Jane Austen</label>
+                    <label><input type="radio" name="q4" value="c">c) Charles Dickens</label>
+                    <label><input type="radio" name="q4" value="d">d) F. Scott Fitzgerald</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>5.What is the currency of Japan?</p>
+                <div class="options4">
+                    <label><input type="radio" name="q5" value="a">a) Yen</label>
+                    <label><input type="radio" name="q5" value="b">b) Euro</label>
+                    <label><input type="radio" name="q5" value="c">c) Dollar</label>
+                    <label><input type="radio" name="q5" value="d">d) Rupee</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>6.Which country is home to the famous ancient monument Stonehenge?</p>
+                <div class="options5">
+                    <label><input type="radio" name="q6" value="a">a) France</label>
+                    <label><input type="radio" name="q6" value="b">b) United Kingdom</label>
+                    <label><input type="radio" name="q6" value="c">c) Italy</label>
+                    <label><input type="radio" name="q6" value="d">d) Egypt</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>7.Who is the author of the Harry Potter book series?</p>
+                <div class="options6">
+                    <label><input type="radio" name="q7" value="a">a) J.R.R. Tolkien</label>
+                    <label><input type="radio" name="q7" value="b">b) J.K. Rowling</label>
+                    <label><input type="radio" name="q7" value="c">c) George R.R. Martin</label>
+                    <label><input type="radio" name="q7" value="d">d) Dan Brown</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>8.Which country is known as the "Land of the Rising Sun"?</p>
+                <div class="options7">
+                    <label><input type="radio" name="q8" value="a">a) China</label>
+                    <label><input type="radio" name="q8" value="b">b) South Korea</label>
+                    <label><input type="radio" name="q8" value="c">c) Japan</label>
+                    <label><input type="radio" name="q8" value="d">d) Thailand</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>9.Who painted the famous artwork "The Starry Night"?</p>
+                <div class="options8">
+                    <label><input type="radio" name="q9" value="a">a) Salvador Dalí</label>
+                    <label><input type="radio" name="q9" value="b">b) Pablo Picasso</label>
+                    <label><input type="radio" name="q9" value="c">c) Vincent van Gogh</label>
+                    <label><input type="radio" name="q9" value="d">d) Claude Monet</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>10.The first newspaper published in India in 1780 was</p>
+                <div class="options9">
+                    <label><input type="radio" name="q10" value="a">a) The Bengal Gazette or Calcutta General Advertiser</label>
+                    <label><input type="radio" name="q10" value="b">b) The Calcutta Chronicle</label>
+                    <label><input type="radio" name="q10" value="c">c) The Madras Courier</label>
+                    <label><input type="radio" name="q10" value="d">d) The Bombay Herald</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>11. Find the derivative of f(x)=3x^2-2x+5</p>
+                <div class="options10">
+                    <label><input type="radio" name="q11" value="a">a) 6x−2</label>
+                    <label><input type="radio" name="q11" value="b">b) 3x^2−2</label>
+                    <label><input type="radio" name="q11" value="c">c) 6x-2x+5</label>
+                    <label><input type="radio" name="q11" value="d">d) 3x^3-2x</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>12.Solve for x in the equation 2x+4=10.</p>
+                <div class="options11">
+                    <label><input type="radio" name="q12" value="a">a) x=3 </label>
+                    <label><input type="radio" name="q12" value="b">b)x=2</label>
+                    <label><input type="radio" name="q12" value="c">c)x=6 </label>
+                    <label><input type="radio" name="q12" value="d">d)x=-3 </label>
+                </div>
+            </div>
+             <div class="question">
+                <p>13. A car accelerates uniformly from rest to a speed of 20 m/s in 5 seconds. What is its acceleration?</p>
+                <div class="options12">
+                    <label><input type="radio" name="q13" value="a">a)2m/s^2 </label>
+                    <label><input type="radio" name="q13" value="b">b)4m/s^2 </label>
+                    <label><input type="radio" name="q13" value="c">c)5m/s^2</label>
+                    <label><input type="radio" name="q13" value="d">d)10m/s^2 </label>
+                </div>
+            </div>
+             <div class="question">
+                <p>14. Which structure is the tallest man-made structure in the world?</p>
+                <div class="options13">
+                    <label><input type="radio" name="q14" value="a">a) Burj Khalifa</label>
+                    <label><input type="radio" name="q14" value="b">b) Shanghai Tower</label>
+                    <label><input type="radio" name="q14" value="c">c) Tokyo Skytree</label>
+                    <label><input type="radio" name="q14" value="d">d) One World Trade Center</label>
+                </div>
+            </div>
+             <div class="question">
+                <p>15.You are captured by an evil villain who presents you with two doors.
+                Behind one door is instant death, and behind the other is eternal happiness.
+                There are two guards, one in front of each door. One guard always tells the truth, and the other always lies.
+                You can ask one guard only one question to determine which door leads to happiness. What question do you ask?</p>
+                <div class="options14">
+                    <label><input type="radio" name="q15" value="a">a)"If I were to ask the other guard which door leads to happiness, what would he say?"</label>
+                    <label><input type="radio" name="q15" value="b">b)"Which door would you choose if you were me?" </label>
+                    <label><input type="radio" name="q15" value="c">c) "Is eternal happiness behind your door?" </label>
+                    <label><input type="radio" name="q15" value="d">d) "Is instant death behind your door?" </label>
+                </div>
+            </div>
+            <button type="button" class="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+        <div id="results" style="display: none;">
+            <h3>Results</h3>
+            <div id="score"></div>
+            <div id="answers"></div>
+        </div>
+    </div>
+    <script>
+        function submitQuiz() {
+    var questions = document.querySelectorAll('.question');
+    var score = 0;
+    var answers = [];
+
+    questions.forEach(function(question, index) {
+        var selectedOption = question.querySelector('input[type="radio"]:checked');
+        if (selectedOption) {
+            var userAnswer = selectedOption.value;
+            answers.push(userAnswer);
+            var correctAnswer = question.querySelector('input[type="radio"][value="a"]').checked;
+            if (userAnswer === "a" && correctAnswer) {
+                score++;
+            }
+        }
+    });
+
+    var resultsContainer = document.getElementById('results');
+    var scoreDisplay = document.getElementById('score');
+    var answersDisplay = document.getElementById('answers');
+
+    scoreDisplay.innerHTML = 'Your score: ' + score + ' out of ' + questions.length;
+    answersDisplay.innerHTML = 'Correct answers:<br>';
+    questions.forEach(function(question, index) {
+        var correctOption = question.querySelector('input[type="radio"][value="a"]');
+        if (correctOption) {
+            answersDisplay.innerHTML += (index + 1) + '. ' + correctOption.parentNode.textContent + '<br>';
+        }
+    });
+
+    resultsContainer.style.display = 'block';
+}
+    </script>
+</body>
+</html>
